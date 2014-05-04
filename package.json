@@ -1,0 +1,23 @@
+{
+  "name": "url.i18n",
+  "version": "0.0.0",
+  "description": "i18n support for your angular.js applications",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uroslates/url.i18n"
+  },
+  "keywords": [
+    "angular.js",
+    "i18n"
+  ],
+  "author": "Uros Lates <uroslates@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/uroslates/url.i18n/issues"
+  },
+  "homepage": "https://github.com/uroslates/url.i18n"
+}

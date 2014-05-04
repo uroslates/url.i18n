@@ -1,0 +1,31 @@
+{
+  "name": "url.i18n",
+  "version": "0.0.0",
+  "homepage": "https://github.com/uroslates/url.i18n",
+  "authors": [
+    "Uros Lates <uroslates@gmail.com>"
+  ],
+  "description": "i18n support for your angular.js applications",
+  "main": "lib/index.js",
+  "keywords": [
+    "angular.js",
+    "i18n"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "jquery": "~1.11.0",
+    "bootstrap-sass-official": "~3.1.0",
+    "angular-route": "1.2.15",
+    "angular-translate": "~2.0.1",
+    "bootstrap": "~3.1.1"
+  }
+}

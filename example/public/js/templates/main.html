@@ -1,0 +1,27 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">{{'HOME' | translate}}</a></li>
+    <li><a ng-href="#">{{'ABOUT' | translate}}</a></li>
+    <li><a ng-href="#">{{'CONTACT' | translate}}</a></li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown">{{'LANGUAGES' | translate}}<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li ng-repeat="clanguageCode in languageCodes" ng-class="{ active: clanguageCode === languageCode }">
+          <a ng-click="switchLanguage(clanguageCode)">{{clanguageCode | translate}}</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3 class="text-muted">url 18n</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>url.i18n</h1>
+  <p class="lead">
+    i18n support module for Angular.js applications.
+  </p>
+</div>
+
+<div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> <a href="http://uroslates.com">Uroš Lates</a></p>
+</div>
