@@ -50,4 +50,4 @@ You can find an example for this within **example** folder.
 
 ## Author
 
-[Uroš Lates]: http://uroslates.com/
+[Uroš Lates](http://uroslates.com/)
