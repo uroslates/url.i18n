@@ -5,6 +5,7 @@ This repo is an angular.js custom module for your application's i18n support.
 url.18n is built upon a great **angular-translate** module. The motivation was driven by the fact that most angular-translate examples I saw required you to clutter your configure method callback with a lot of translation specific configuration. 
 On the other hand I really like encapsulating everything in its own modules and registering them with minimal configuration needed. Therefor if you like it you could follow this path and use this way of adding i18n support to your angular.js apps.
 
+You can see an example using this module in action [here](http://uroslates.github.io/url.i18n/example/)
 
 ##  Usage
 
@@ -36,7 +37,7 @@ Note: I like my modules to have clear files separation hence you'll see everythi
 
   angular.module('myApplication', ['url.i18n'])
 
-With this you're good to go with using this module for i18n support within your application. The only thing to do is change your templates and global controller to be able to switch languages. Check out **example** folder for an example.
+With this you're good to go with using this module for i18n support within your application. The only thing to do is change your templates and global controller to be able to switch languages. Check out **example** folder for an example (deployed [here](http://uroslates.github.io/url.i18n/example/)).
 
 
 ### Additional configuration
